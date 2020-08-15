@@ -1,0 +1,30 @@
+/*  Header css here  */
+
+.main-header  .main-header-bar{
+    border-bottom-width: 0;
+}
+
+body.almaira-shop-dark .almaira-site .main-header-bar:before{
+    box-shadow: 0 1px 6px 0 rgba(81, 81, 81, 0.42);
+}
+/*  Banner css here  */
+.swiper-slide .entity-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.swiper-slide .slide-bgimg{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 24%;
+}
+
+/*  Contact page css here  */
+
+.google-maps iframe{
+    width: 400px;
+    height: 250px;
+}
